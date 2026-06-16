@@ -33,13 +33,6 @@
 
             label = "HYPERKEY_MACRO";
         };
-
-        caps_or_keypad: caps_or_keypad {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "CAPS_OR_KEYPAD";
-        };
     };
 
     keymap {
